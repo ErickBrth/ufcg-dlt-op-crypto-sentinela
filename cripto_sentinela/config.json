@@ -1,0 +1,12 @@
+{
+  "id_unidade": "UT-Bravo",
+  "mqtt_broker": "test.mosquitto.org",
+  "mqtt_port": 1883,
+  "topicos": {
+    "chaves": "sisdef/broadcast/chaves/",
+    "mensagem": "sisdef/direto/",
+    "revogacao": "sisdef/broadcast/revogacao"
+  },
+  "chaves_local": "keys/minhas_chaves.json",
+  "chaves_confiaveis": "keys/chaves_confiaveis.json"
+}
